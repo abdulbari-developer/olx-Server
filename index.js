@@ -13,7 +13,7 @@ console.log("You successfully connected to MongoDB!");
 const app = express()
 const port = 3003
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://olx-fe.vercel.app/',
   credentials: true,
    methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
