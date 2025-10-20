@@ -95,7 +95,7 @@ app.use((req, res, next) => {
 // ✅ Private routes
 app.use(productRoutes)
 
-// app.listen(port, () => {
-//   console.log(`Server running on port ${port}`)
-// })
-export default app;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`)
+})
+// export default app;
